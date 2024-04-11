@@ -5,3 +5,4 @@ Rexports many no-std compile time mutually compatible boilerplate macros and tra
 - derive-new
 - displaydoc
 - tuple
+- num-traits
