@@ -14,3 +14,4 @@ Rexports many no_std compile time mutually compatible boilerplate macros and tra
 - ref-cast
 - readonly
 - inherent
+- educe
