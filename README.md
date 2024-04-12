@@ -1,6 +1,6 @@
 # qwe-rs
 
-Rexports many no-std compile time mutually compatible boilerplate macros and traits for latest Rust
+Rexports many no_std compile time mutually compatible boilerplate macros and traits for latest Rust without locking any version.
 
 - derive-new
 - displaydoc
@@ -10,3 +10,4 @@ Rexports many no-std compile time mutually compatible boilerplate macros and tra
 - bounded-collections
 - enumn
 - log
+- strum
