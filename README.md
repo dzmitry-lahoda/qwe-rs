@@ -20,7 +20,7 @@ Provides several `Cargo.lock` and lockless branches.
 
 ## Supply chain attack mitigation
 
-- Builds them using `nix` sandbox ensuring `build.rs` and `macros` do not modify source code (read-only `src`) nor read from other folders.
+- Builds them using `nix` sandbox ensuring `build.rs` and `macros` do not modify source code (read-only `src`) nor read/write from other folders.
 - checks all deps via A and B advisor
 
 ## Nightly support
