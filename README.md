@@ -1,6 +1,6 @@
 # qwe-rs
 
-Rexports many no_std compile time mutually compatible boilerplate macros and traits for latest Rust without locking any version.
+Rexports many `no_std` compile time mutually compatible boilerplate macros, primitives, traits and safe functions (written in unsafe Rust).
 
 - derive-new
 - displaydoc
@@ -15,3 +15,18 @@ Rexports many no_std compile time mutually compatible boilerplate macros and tra
 - readonly
 - inherent
 - educe
+
+Provides several `Cargo.lock` and lockless branches. 
+
+## Supply chain attack mitigation
+
+- Builds them using `nix` sandbox ensuring `build.rs` and `macros` do not modify source code (read-only `src`) nor read from other folders.
+- checks all deps via A and B advisor
+
+## Nightly support
+
+With `nightly` feature support works on latest  nightly supported by `nix`.
+
+## Consistency
+
+- renames some macros for consistency. For example `enum::N` renamed to `EnumNum`, like `num` crate.
