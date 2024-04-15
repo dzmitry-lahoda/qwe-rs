@@ -15,6 +15,7 @@ Rexports many `no_std` compile time mutually compatible boilerplate macros, prim
 - readonly
 - inherent
 - educe
+- byteorder
 
 Provides several `Cargo.lock` and lockless branches. 
 
