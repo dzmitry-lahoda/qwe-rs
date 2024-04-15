@@ -17,8 +17,9 @@ Rexports many `no_std` compile time mutually compatible boilerplate macros, prim
 - educe
 - byteorder
 - frunk
+- result-like
 
-Provides several `Cargo.lock` and lockless branches. 
+Provides several `Cargo.lock` and lockless branches, and ability to disable/enable crates behind feautes.. 
 
 ## Supply chain attack mitigation
 
